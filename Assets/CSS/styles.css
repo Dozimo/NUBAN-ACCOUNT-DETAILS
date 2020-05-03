@@ -96,3 +96,7 @@ th, td{
     background-color: wheat;
 }
 
+a, a:hover{
+    text-decoration: none;
+    color: inherit;
+    }
