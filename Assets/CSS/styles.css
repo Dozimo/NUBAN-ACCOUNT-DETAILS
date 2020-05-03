@@ -67,6 +67,32 @@ body{
 .header{
     right: 0px;
     top: 20px;
+    /* display: flex; */
     position: absolute;
     color: crimson;
+    /* justify-content: space-evenly; */
+    padding: 0px 10px;
 }
+
+.header span{
+    padding: 0px 10px;
+}
+
+.upload, .submit{
+    margin: 20px;
+}
+.tables{
+    display: flex;
+    justify-content: center;
+}
+table {
+    border: 2px solid black;
+    width: 80%;
+}
+
+th, td{
+    border: 1px solid  tomato;
+    text-align: center;
+    background-color: wheat;
+}
+
