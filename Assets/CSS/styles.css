@@ -100,3 +100,8 @@ a, a:hover{
     text-decoration: none;
     color: inherit;
     }
+
+.export{
+  margin: 0px 0px 10px 1140px;
+  /* position: absolute; */
+}
