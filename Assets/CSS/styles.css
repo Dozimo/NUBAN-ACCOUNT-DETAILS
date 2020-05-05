@@ -156,7 +156,7 @@ a, a:hover{
 .tables-admin1{
     display: flex;
     justify-content: flex-start;
-    margin: 20px;
+    /* margin: 20px; */
     width: 40%;
     float: left;
 
@@ -174,4 +174,48 @@ a, a:hover{
 .tables-admin1 a:hover{
     color: blue;
     text-decoration: underline;
+}
+
+.input-group{
+    width: 30%;
+    margin: 20px;
+}
+.controls{
+  width: 55%;
+  float: right;
+}
+.inputform{
+    display: flex;
+    /* width: 55%; */
+    margin: 0px;
+    
+}
+
+.custom-select{
+   
+    margin: 15px;
+}
+
+.mr-2{
+    margin: 0px 0px 0px 20px;
+}
+.form-control-admin{
+ 
+    display: block;
+    margin: 0px 15px;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.query{
+    margin: 20px;
 }

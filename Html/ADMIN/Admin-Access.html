@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/CSS/reset.css">
+    <link rel="stylesheet" href="../../Assets/CSS/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700|Inter|Roboto:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -34,40 +34,73 @@
                     <th>Username</th>
                     <th>Role</th>
                     <th>Status</th>
-                    
+                    <th>Disable</th>
                 </tr>
                 <tr>
                     <td>John Doe</td>
                     <td>doeJJ</td>
                     <td>CPCUser</td>
                     <td>Active</td>
-                    
+                    <td><div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                        <label class="custom-control-label" for="customSwitch1"></label>
+                      </div></td>
                 </tr>
                 <tr>
                     <td>Sarah Wilcox</td>
                     <td>WilcoxSS</td>
                     <td>Audit</td>
                     <td>Disabled</td>
-                   
+                    <td><div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="customSwitch2" checked>
+                        <label class="custom-control-label" for="customSwitch2"></label>
+                      </div></td>
                 </tr>
                 <tr>
                     <td>John Doe</td>
                     <td>doeJJ</td>
                     <td>CPCUser</td>
                     <td>Active</td>
-                    
+                    <td><div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="customSwitch3">
+                        <label class="custom-control-label" for="customSwitch3"></label>
+                      </div></td>
                 </tr>
                 <tr>
                     <td>Sarah Wilcox</td>
                     <td>WilcoxSS</td>
                     <td>Admin</td>
                     <td>Active</td>
-                    
+                    <td><div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="customSwitch4">
+                        <label class="custom-control-label" for="customSwitch4"></label>
+                      </div></td>
                 </tr>
                 </table>
             </div>
         </div>
-        
+        <div class="controls">
+            <div class="inputform">
+                <input class="form-control-admin" type="text" placeholder="Username" id="disabledTextInput">
+                <fieldset disabled>
+                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Full name">
+                </fieldset>
+                
+                
+                <div class="role">
+                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Role</label>
+                <select class="custom-select my-1 mr-sm-2"    id="inlineFormCustomSelectPref">
+                <option selected>Choose...</option>
+                <option value="1">CPCUser</option>
+                <option value="2">Audit</option>
+                <option value="3">Admin</option>
+                </select>
+                </div>
+                <div class="submit">
+                <a href="Admin-Access.html"><input class="btn btn-outline-warning" type="submit" value="Submit"></a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
