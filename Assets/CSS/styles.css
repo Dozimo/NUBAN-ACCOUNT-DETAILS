@@ -84,10 +84,12 @@ body{
 .tables{
     display: flex;
     justify-content: center;
+    
+    
 }
 table {
     border: 2px solid black;
-    width: 80%;
+    width: 100%;
 }
 
 th, td{
@@ -104,4 +106,72 @@ a, a:hover{
 .export{
   margin: 0px 0px 10px 1140px;
   /* position: absolute; */
+}
+
+.tables-audit1{
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+    width: 40%;
+    float: left;
+
+}
+.tables-audit1 table {
+    border: 2px solid black;
+    
+}
+
+.tables-audit1 a{
+    cursor: pointer;
+    color: blue;
+}
+
+.tables-audit1 a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.tables-audit2{
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+    border: 1px solid  tomato;
+    background-color: wheat;
+    width: 50%;
+    float: right;
+
+}
+.tables-audit2 > div {
+    margin: 20px;
+}
+
+.timestamp{
+    margin: 10px 0px;
+}
+
+.tables table{
+    width: 80%;
+}
+
+.tables-admin1{
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+    width: 40%;
+    float: left;
+
+}
+.tables-admin1 table {
+    border: 2px solid black;
+    
+}
+
+.tables-admin1 a{
+    cursor: pointer;
+    color: blue;
+}
+
+.tables-admin1 a:hover{
+    color: blue;
+    text-decoration: underline;
 }
