@@ -81,21 +81,27 @@ body{
 .upload, .submit{
     margin: 20px;
 }
-.tables{
+.table{
     display: flex;
     justify-content: center;
     
     
 }
+
+.main-table{
+    width: 80%;
+}
 table {
     border: 2px solid black;
     width: 100%;
+    
+    
 }
 
 th, td{
     border: 1px solid  tomato;
     text-align: center;
-    background-color: wheat;
+    background-color: whitesmoke;
 }
 
 a, a:hover{
@@ -112,7 +118,7 @@ a, a:hover{
     display: flex;
     justify-content: flex-start;
     margin: 20px;
-    width: 40%;
+    width: 50%;
     float: left;
 
 }
@@ -137,7 +143,7 @@ a, a:hover{
     margin: 20px;
     border: 1px solid  tomato;
     background-color: wheat;
-    width: 50%;
+    width: 40%;
     float: right;
 
 }
@@ -149,15 +155,15 @@ a, a:hover{
     margin: 10px 0px;
 }
 
-.tables table{
-    width: 80%;
+.table table{
+    /* width: 80%; */
 }
 
 .tables-admin1{
     display: flex;
     justify-content: flex-start;
     /* margin: 20px; */
-    width: 40%;
+    width: 50%;
     float: left;
 
 }
@@ -181,7 +187,7 @@ a, a:hover{
     margin: 20px;
 }
 .controls{
-  width: 55%;
+  width: 50%;
   float: right;
 }
 .inputform{
