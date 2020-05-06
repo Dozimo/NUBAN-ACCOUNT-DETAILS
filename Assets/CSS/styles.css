@@ -169,7 +169,7 @@ a, a:hover{
     margin: 20px;
     border: 1px solid  tomato;
     background-color: wheat;
-    width: 40%;
+    /* width: 40%; */
     float: right;
 
 }
@@ -261,3 +261,8 @@ a, a:hover{
 .form-control-admin:disabled, .form-control[readonly] {
     background-color: #e9ecef;
     opacity: 1;}
+
+.collapsecards{
+    display: flex;
+    flex-direction: column;
+}
