@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
 
 *{
     box-sizing: border-box;
@@ -7,7 +9,7 @@
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     background-color: rgb(241, 241, 241);
 }
 
@@ -42,7 +44,7 @@ body{
 .mainform{
     width: 450px;
     position: absolute;
-    left: 500px;
+    left: 800px;
     top: 150px;
 }
 .formhd{
@@ -58,20 +60,44 @@ body{
     margin: 15px 0px;
     /* border-radius: 2px; */
 }
-
+.mainbody:hover .maintxt h1{
+    opacity: 1;
+    transition: 0.3s linear;
+    transform: translateY(-40px);
+}
 .header h1{
     float: right;
     font-style: italic;
-    
+    /* opacity: 0; */
 }
 .header{
-    right: 0px;
+    display: flex;
+    right: 20px;
     top: 20px;
-    /* display: flex; */
     position: absolute;
     color: crimson;
-    /* justify-content: space-evenly; */
+    align-items: center;
     padding: 0px 10px;
+}
+
+.maintxt h1{
+    /* float: right; */
+    font-style: italic;
+    opacity: 0;
+}
+.maintxt{
+    display: flex;
+    /* left: 50px; */
+    top: 60px;
+    height: 100%;
+    background-color: white ;
+    position: absolute;
+    color: crimson;
+    align-items: center;
+    /* padding: 0px 10px; */
+    width: 50%;
+    justify-content: center;
+    background-image: url(../Images/content-pixie-ozZVrtwZ5Fg-unsplash.jpg);
 }
 
 .header span{
@@ -155,9 +181,9 @@ a, a:hover{
     margin: 10px 0px;
 }
 
-.table table{
-    /* width: 80%; */
-}
+/* .table table{
+    width: 80%;
+} */
 
 .tables-admin1{
     display: flex;
@@ -192,8 +218,9 @@ a, a:hover{
 }
 .inputform{
     display: flex;
-    /* width: 55%; */
+    width: 55%;
     margin: 0px;
+    flex-direction: column;
     
 }
 
@@ -206,9 +233,9 @@ a, a:hover{
     margin: 0px 0px 0px 20px;
 }
 .form-control-admin{
- 
+    
     display: block;
-    margin: 0px 15px;
+    margin: 0px 15px 20px 15px;
     height: calc(1.5em + .75rem + 2px);
     padding: .375rem .75rem;
     font-size: 1rem;
@@ -225,3 +252,12 @@ a, a:hover{
 .query{
     margin: 20px;
 }
+
+.nav span,.nav a{
+    font-weight: 600;
+}
+
+
+.form-control-admin:disabled, .form-control[readonly] {
+    background-color: #e9ecef;
+    opacity: 1;}
